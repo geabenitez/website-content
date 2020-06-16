@@ -1,7 +1,7 @@
 ---
 title: The Complete ECMAScript 2015-2017 Guide
 description: "ECMAScript is the standard upon which JavaScript is based, and it's often abbreviated to ES. Discover everything about ECMAScript, and the latest features added in ES6, 7, 8."
-date: "2018-02-01T22:31:00"
+date: "2018-04-01T22:31:00"
 entryType: 'icon-code'
 tags: 'javascript, react'
 image: 'image.jpg'
