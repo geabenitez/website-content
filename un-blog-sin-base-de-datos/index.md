@@ -3,7 +3,7 @@ title: "¿Cómo cree mi blog sin base de datos con React y Markdown?"
 description: "El Stack de desarrollo JAM, está siendo utilizado mucho últimamente, y decidí usar una versión de esta creado con ReactJS, NextJS y Markdown para darle vida a mi blog personal que tenia ya bastante de estar planeando."
 date: "2020-03-01"
 entryType: 'icon-file'
-tags: 'javascript, nextjs, react, markdown'
+tags: 'javascript, nuxtjs, vuejs, markdown'
 image: '4618.jpg'
 ---
 
