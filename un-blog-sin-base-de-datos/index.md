@@ -84,5 +84,3 @@ const handleImageUpload = event => {
   })
 }
 ```
-
-> *Si deseas contribuir a mejorar esta publicación puedes hacer un PR a [este repositorio](https://github.com/geabenitez/GersonAguirre.me)*
