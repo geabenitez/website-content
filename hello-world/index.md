@@ -2,7 +2,7 @@
 title: "Hello World"
 description: "Descripcion de lo que trata. mas informacion"
 date: "2020-01-07T11:00:00"
-entryType: 'icon-code'
+entryType: 'code'
 tags: 'javascript, utilities'
 image: '4618.jpg'
 ---
