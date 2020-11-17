@@ -4,7 +4,6 @@ description: "Hello world blog description, not that long but not that short, ju
 date: "2019-01-07T15:59:00"
 entryType: 'howto'
 tags: 'vuejs, graphql'
-image: 'ventajas.jpg'
 ---
 
 ### Step 5

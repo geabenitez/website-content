@@ -4,12 +4,12 @@ description: "ECMAScript is the standard upon which JavaScript is based, and it'
 date: "2020-04-01T22:31:00"
 entryType: 'code'
 tags: 'javascript, vuejs'
-image: 'image.jpg'
 ---
 
 ___
 
 ## Tabla de contenidos
+
 * [TailwindCSS](#-tailwindcss)
 * [Less options](#less-options)
 * [Difference with ESLint](#difference-with-eslint)
@@ -17,7 +17,6 @@ ___
 * [Prettier for beginners](#prettier-for-beginners)
 
 ___
-
 
 Whenever you read about [JavaScript](/javascript/) you'll inevitably see one of these terms:
 
@@ -71,7 +70,7 @@ The current ECMAScript version is **ES2018**.
 
 It was released in June 2018.
 
-## When is the next version coming out?
+## When is the next version coming out
 
 Historically JavaScript editions have been standardized during the summer, so we can expect **ECMAScript 2019** to be released in summer 2019.
 
