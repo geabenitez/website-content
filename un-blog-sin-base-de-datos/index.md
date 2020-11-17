@@ -4,12 +4,12 @@ description: "El Stack de desarrollo JAM, está siendo utilizado mucho últimame
 date: "2020-03-01"
 entryType: 'file'
 tags: 'javascript, nuxtjs, vuejs, markdown'
-image: '4618.jpg'
 ---
 
 ___
 
 ## Tabla de contenidos
+
 * [TailwindCSS](#-tailwindcss)
 * [Less options](#less-options)
 * [Difference with ESLint](#difference-with-eslint)
@@ -28,12 +28,11 @@ Ya hace varios meses había escuchado de esta tendencia y me había llamado la a
 
 ![alt text](jam-stack.jpeg "Logo Title Text 1")
 
+Pero, ¿que es realmente el *JAM* stack?
 
-Pero, ¿que es realmente el *JAM* stack? 
+Lo siguiente lo podemos leer en [JAMSTACK.ORG](https://jamstack.org/)
 
-Lo siguiente lo podemos leer en [JAMSTACK.ORG](https://jamstack.org/) 
-
-> "Fast and secure sites and apps delivered by pre-rendering files and serving them directly from a CDN, removing the requirement to manage or run web servers." 
+> "Fast and secure sites and apps delivered by pre-rendering files and serving them directly from a CDN, removing the requirement to manage or run web servers."
 
 Y pues eso es precisamente lo que me llamó la atención.
 
@@ -47,19 +46,23 @@ Puedo levantar un blog sin necesidad de gastar un cinco en recursos.
 - Netlify
 
 ### React/NextJS
+
 Básicamente NextJS es React con esteroides, no profundizarse mucho en este tema, pero algo que beneficia mucho de esta tecnología es que se pueden construir.......
 
 ## TailwindCSS
+
 Es un framework increíble....
 
 ### Markdown
+
 .......
 
 ### Netlify
+
 .......
 
 Si alguien está interesado en ver como logre combinar todo para tener mi blog pueden acceder al repositorio
- *https://github.com/geabenitez/gersonaguirre.me*
+ *<https://github.com/geabenitez/gersonaguirre.me>*
 
 Respecto a cómo publicar un sitio web estático en Netlify, pueden ver este recurso.....
 
