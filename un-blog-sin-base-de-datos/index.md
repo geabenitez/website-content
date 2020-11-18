@@ -11,6 +11,7 @@ ___
 
 * [TailwindCSS](#tailwindcss)
 * [NuxtJS](#nuxtjs)
+* [Otro Post](#otro-post)
 
 ___
 
@@ -121,4 +122,6 @@ const handleImageUpload = event => {
     console.error(error)
   })
 }
-```asd
+```
+
+## Otro post
