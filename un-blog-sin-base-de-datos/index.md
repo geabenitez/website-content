@@ -3,17 +3,9 @@ title: "¿Cómo cree mi blog sin base de datos con React y Markdown?"
 description: "El Stack de desarrollo JAM, está siendo utilizado mucho últimamente, y decidí usar una versión de esta creado con ReactJS, NextJS y Markdown para darle vida a mi blog personal que tenia ya bastante de estar planeando."
 entryType: 'file'
 tags: 'javascript, nuxtjs, vuejs, markdown'
+date: '2020-01-15'
 ---
-
-___
-
-## Tabla de contenidos
-
-* [TailwindCSS](#tailwindcss)
-* [NuxtJS](#nuxtjs)
-* [Otro Post](#otro-post)
-
-___
+---
 
 El desarrollo de mi blog es algo que había estado deseando desde hace ya más de un año, y como con muchas ideas, había quedado engavetado hasta este mes de febrero del 2020.
 
@@ -23,7 +15,7 @@ Para el desarrollo elegí una implementación del stack *JAM* (**Javascript**, *
 
 Ya hace varios meses había escuchado de esta tendencia y me había llamado la atención, antes de comenzar el desarrollo de mi blog ya había hecho un par de pruebas de esta stack pero usando NuxtJS.
 
-![alt text](jam-stack.jpeg "Logo Title Text 1")
+<v-img src="/un-blog-sin-base-de-datos/jam-stack.jpeg" alt="Software Engineer Job Offer"></v-img>
 
 Pero, ¿que es realmente el *JAM* stack?
 

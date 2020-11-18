@@ -3,6 +3,8 @@ title: "Hello World"
 description: "Descripcion de lo que trata. mas informacion"
 entryType: 'code'
 tags: 'javascript, utilities'
+date: '2020-11-03'
+---
 ---
 
 # H1

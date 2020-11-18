@@ -3,18 +3,8 @@ title: The Complete ECMAScript 2015-2017 Guide
 description: "ECMAScript is the standard upon which JavaScript is based, and it's often abbreviated to ES. Discover everything about ECMAScript, and the latest features added in ES6, 7, 8."
 entryType: 'code'
 tags: 'javascript, vuejs'
+date: '2020-02-01'
 ---
-
-___
-
-## Tabla de contenidos
-
-* [TailwindCSS](#-tailwindcss)
-* [Less options](#less-options)
-* [Difference with ESLint](#difference-with-eslint)
-* [Installation](#installation)
-* [Prettier for beginners](#prettier-for-beginners)
-
 ___
 
 Whenever you read about [JavaScript](/javascript/) you'll inevitably see one of these terms:
