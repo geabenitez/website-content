@@ -1,7 +1,6 @@
 ---
 title: "¿Cómo cree mi blog sin base de datos con React y Markdown?"
 description: "El Stack de desarrollo JAM, está siendo utilizado mucho últimamente, y decidí usar una versión de esta creado con ReactJS, NextJS y Markdown para darle vida a mi blog personal que tenia ya bastante de estar planeando."
-date: "2020-03-01"
 entryType: 'file'
 tags: 'javascript, nuxtjs, vuejs, markdown'
 ---
@@ -10,11 +9,8 @@ ___
 
 ## Tabla de contenidos
 
-* [TailwindCSS](#-tailwindcss)
-* [Less options](#less-options)
-* [Difference with ESLint](#difference-with-eslint)
-* [Installation](#installation)
-* [Prettier for beginners](#prettier-for-beginners)
+* [TailwindCSS](#tailwindcss)
+* [NuxtJS](#nuxtjs)
 
 ___
 
@@ -87,3 +83,42 @@ const handleImageUpload = event => {
   })
 }
 ```
+
+## NuxtJS
+
+Es un framework increíble....
+
+### Markdown
+
+.......
+
+### Netlify
+
+.......
+
+Si alguien está interesado en ver como logre combinar todo para tener mi blog pueden acceder al repositorio
+ *<https://github.com/geabenitez/gersonaguirre.me>*
+
+Respecto a cómo publicar un sitio web estático en Netlify, pueden ver este recurso.....
+
+Y pueden entrar a estas categorías para poder ver más sobre las tecnologías utilizadas.
+
+```js
+const handleImageUpload = event => {
+  const files = event.target.files
+  const formData = new FormData()
+  formData.append('myFile', files[0])
+
+  fetch('/saveImage', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log(data)
+  })
+  .catch(error => {
+    console.error(error)
+  })
+}
+```asd
