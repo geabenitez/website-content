@@ -9,11 +9,25 @@ modified: 2021-11-25T00:12:13-06:00
 
 ## Un post de prueba
 
-<v-img src="/un-post-de-prueba/3864616ed8591086958cb9e6bd332dca.jpg" alt="Chile triste" />
+Pero, ¿que es realmente el _JAM_ stack?
+
+Lo siguiente lo podemos leer en [JAMSTACK.ORG](https://jamstack.org/)
+
+<v-img src="/un-post-de-prueba/3864616ed8591086958cb9e6bd332dca.jpg" alt="Chile triste"></v-img>
+
+Pero, ¿que es realmente el _JAM_ stack?
+
+Lo siguiente lo podemos leer en [JAMSTACK.ORG](https://jamstack.org/)
+
+Respecto a cómo publicar un sitio web estático en Netlify, pueden ver este recurso.....
+
+Y pueden entrar a estas categorías para poder ver más sobre las tecnologías utilizadas.
 
 ```javascript
-// This is a function declaration
+// This is a function expression
 const play = () => {
-  return 'play' 
-} 
+  return 'play
+}
 ```
+
+## Otro post
