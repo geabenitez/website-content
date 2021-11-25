@@ -6,6 +6,18 @@ tags: 'javascript, nuxtjs, vuejs, markdown'
 date: '2020-01-15'
 ---
 ---
+___
+
+## Tabla de contenidos
+
+* [TailwindCSS](#custom-id)
+* [Less options](#less-options)
+* [Difference with ESLint](#difference-with-eslint)
+* [Installation](#installation)
+* [Prettier for beginners](#prettier-for-beginners)
+
+___
+=======
 
 El desarrollo de mi blog es algo que había estado deseando desde hace ya más de un año, y como con muchas ideas, había quedado engavetado hasta este mes de febrero del 2020.
 
@@ -15,6 +27,12 @@ Para el desarrollo elegí una implementación del stack *JAM* (**Javascript**, *
 
 Ya hace varios meses había escuchado de esta tendencia y me había llamado la atención, antes de comenzar el desarrollo de mi blog ya había hecho un par de pruebas de esta stack pero usando NuxtJS.
 
+![alt text](./jam-stack.jpeg)
+
+Pero, ¿que es realmente el *JAM* stack? 
+Lo siguiente lo podemos leer en [JAMSTACK.ORG](https://jamstack.org/) 
+> "Fast and secure sites and apps delivered by pre-rendering files and serving them directly from a CDN, removing the requirement to manage or run web servers." 
+=======
 <v-img src="/un-blog-sin-base-de-datos/jam-stack.jpeg" alt="Software Engineer Job Offer"></v-img>
 
 Pero, ¿que es realmente el *JAM* stack?
@@ -24,20 +42,20 @@ Lo siguiente lo podemos leer en [JAMSTACK.ORG](https://jamstack.org/)
 > "Fast and secure sites and apps delivered by pre-rendering files and serving them directly from a CDN, removing the requirement to manage or run web servers."
 
 Y pues eso es precisamente lo que me llamó la atención.
-
 Puedo levantar un blog sin necesidad de gastar un cinco en recursos.
-
 ¿Como logré esto?, bueno pues usando las siguientes tecnologías
 
-- React/NextJS
-- TailwindCSS
-- Markdown
-- Netlify
+* React/NextJS
+* TailwindCSS
+* Markdown
+* Netlify
 
 ### React/NextJS
 
 Básicamente NextJS es React con esteroides, no profundizarse mucho en este tema, pero algo que beneficia mucho de esta tecnología es que se pueden construir.......
 
+>
+=======
 ## TailwindCSS
 
 Es un framework increíble....
@@ -46,6 +64,8 @@ Es un framework increíble....
 
 .......
 
+### My Great Heading {#custom-id}
+=======
 ### Netlify
 
 .......
@@ -56,6 +76,7 @@ Si alguien está interesado en ver como logre combinar todo para tener mi blog p
 Respecto a cómo publicar un sitio web estático en Netlify, pueden ver este recurso.....
 
 Y pueden entrar a estas categorías para poder ver más sobre las tecnologías utilizadas.
+=======
 
 ```js
 const handleImageUpload = event => {

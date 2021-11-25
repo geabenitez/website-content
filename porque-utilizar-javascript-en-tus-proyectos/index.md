@@ -7,19 +7,30 @@ date: '2020-02-01'
 ---
 ___
 
+## Tabla de contenidos
+
+* [What is TC39](#what-is-tc39)
+* [ES Versions](#es-versions)
+* [Difference with ESLint](#difference-with-eslint)
+* [Installation](#installation)
+* [Prettier for beginners](#prettier-for-beginners)
+
+___
+
+=======
 Whenever you read about [JavaScript](/javascript/) you'll inevitably see one of these terms:
 
-- ES3
-- ES5
-- ES6
-- ES7
-- ES8
-- ES2015
-- ES2016
-- ES2017
-- ECMAScript 2017
-- ECMAScript 2016
-- ECMAScript 2015
+* ES3
+* ES5
+* ES6
+* ES7
+* ES8
+* ES2015
+* ES2016
+* ES2017
+* ECMAScript 2017
+* ECMAScript 2016
+* ECMAScript 2015
 
 What do they mean?
 
@@ -29,8 +40,8 @@ ECMAScript is **the standard upon which JavaScript is based**, and it's often ab
 
 Beside JavaScript, other languages implement(ed) ECMAScript, including:
 
-- _ActionScript_ (the Flash scripting language), which is losing popularity since Flash will be officially discontinued in 2020
-- _JScript_ (the Microsoft scripting dialect), since at the time JavaScript was supported only by Netscape and the browser wars were at their peak, Microsoft had to build its own version for Internet Explorer
+* _ActionScript_ (the Flash scripting language), which is losing popularity since Flash will be officially discontinued in 2020
+* _JScript_ (the Microsoft scripting dialect), since at the time JavaScript was supported only by Netscape and the browser wars were at their peak, Microsoft had to build its own version for Internet Explorer
 
 but of course JavaScript is the **most popular** and widely used implementation of ES.
 
@@ -43,12 +54,27 @@ When JavaScript was created, it was presented by Netscape and Sun Microsystems t
 After IE9, Microsoft stopped branding its ES support in browsers as JScript and started calling it JavaScript (at least, I could not find references to it any more)
 
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-const match = value => {
-  return value.toUpperCase()
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
 }
-match('Holis')
+
+export  $initHighlight;
 ```
 
 So as of 201x, the only popular language supporting the ECMAScript spec is JavaScript.
@@ -63,7 +89,7 @@ It was released in June 2018.
 
 Historically JavaScript editions have been standardized during the summer, so we can expect **ECMAScript 2019** to be released in summer 2019.
 
-## What is TC39
+### What is TC39
 
 TC39 is the committee that evolves JavaScript.
 
