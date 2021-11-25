@@ -4,10 +4,10 @@ description: Detalles de la descripción del post de prueba. Se agregan más det
 entryType: file
 date: 2021-11-25
 created: 2021-11-24T23:18:33-06:00
-modified: 2021-11-25T00:21:27-06:00
+modified: 2021-11-25T00:25:53-06:00
 ---
 
-## Un post de prueba
+## Un post de pruebaaaa
 
 Pero, ¿que es realmente el _JAM_ stack?
 
