@@ -1,10 +1,10 @@
 ---
 title: AÚN POST DE PRUEBA
-description: Detalles de la descripción del post de prueba.
+description: Detalles de la descripción del post de prueba. Se agregan más detalles
 entryType: file
 date: 2021-11-25
 created: 2021-11-24T23:18:33-06:00
-modified: 2021-11-25T00:12:13-06:00
+modified: 2021-11-25T00:21:27-06:00
 ---
 
 ## Un post de prueba
@@ -31,3 +31,12 @@ const play = () => {
 ```
 
 ## Otro post
+
+Adicionalmente la razón por la que todo esto sucede es por lo que se conoce como lo siguiente
+[x] una raya más pal tigre
+
+```js
+function play() {
+  return "play" 
+} 
+```
