@@ -1,13 +1,15 @@
 ---
-title: "Hello World"
-description: "Hello world blog description, not that long but not that short, just to preview somthing"
-date: "2019-01-07T15:59:00"
-entryType: 'howto'
-tags: 'vuejs, graphql'
-image: 'ventajas.jpg'
+title: Hello Worlud
+description: Hello world blog description, not that long but not that short, just to preview somthing
+entryType: howto
+tags: vuejs, graphql
+date: 2020-09-21T00:00:00-06:00
+modified: 2021-11-25T00:23:03-06:00
 ---
 
-### Step 5
+---
+
+## Step 5
 
 - Install dependencies
 - Run locally

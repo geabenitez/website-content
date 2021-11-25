@@ -1,12 +1,10 @@
 ---
 title: The Complete ECMAScript 2015-2017 Guide
 description: "ECMAScript is the standard upon which JavaScript is based, and it's often abbreviated to ES. Discover everything about ECMAScript, and the latest features added in ES6, 7, 8."
-date: "2020-04-01T22:31:00"
 entryType: 'code'
 tags: 'javascript, vuejs'
-image: 'image.jpg'
+date: '2020-02-01'
 ---
-
 ___
 
 ## Tabla de contenidos
@@ -19,6 +17,7 @@ ___
 
 ___
 
+=======
 Whenever you read about [JavaScript](/javascript/) you'll inevitably see one of these terms:
 
 * ES3
@@ -86,7 +85,7 @@ The current ECMAScript version is **ES2018**.
 
 It was released in June 2018.
 
-## When is the next version coming out?
+## When is the next version coming out
 
 Historically JavaScript editions have been standardized during the summer, so we can expect **ECMAScript 2019** to be released in summer 2019.
 

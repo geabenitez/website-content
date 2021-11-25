@@ -1,12 +1,11 @@
 ---
 title: "¿Cómo cree mi blog sin base de datos con React y Markdown?"
 description: "El Stack de desarrollo JAM, está siendo utilizado mucho últimamente, y decidí usar una versión de esta creado con ReactJS, NextJS y Markdown para darle vida a mi blog personal que tenia ya bastante de estar planeando."
-date: "2020-03-01"
 entryType: 'file'
 tags: 'javascript, nuxtjs, vuejs, markdown'
-image: '4618.jpg'
+date: '2020-01-15'
 ---
-
+---
 ___
 
 ## Tabla de contenidos
@@ -18,6 +17,7 @@ ___
 * [Prettier for beginners](#prettier-for-beginners)
 
 ___
+=======
 
 El desarrollo de mi blog es algo que había estado deseando desde hace ya más de un año, y como con muchas ideas, había quedado engavetado hasta este mes de febrero del 2020.
 
@@ -32,6 +32,15 @@ Ya hace varios meses había escuchado de esta tendencia y me había llamado la a
 Pero, ¿que es realmente el *JAM* stack? 
 Lo siguiente lo podemos leer en [JAMSTACK.ORG](https://jamstack.org/) 
 > "Fast and secure sites and apps delivered by pre-rendering files and serving them directly from a CDN, removing the requirement to manage or run web servers." 
+=======
+<v-img src="/un-blog-sin-base-de-datos/jam-stack.jpeg" alt="Software Engineer Job Offer"></v-img>
+
+Pero, ¿que es realmente el *JAM* stack?
+
+Lo siguiente lo podemos leer en [JAMSTACK.ORG](https://jamstack.org/)
+
+> "Fast and secure sites and apps delivered by pre-rendering files and serving them directly from a CDN, removing the requirement to manage or run web servers."
+
 Y pues eso es precisamente lo que me llamó la atención.
 Puedo levantar un blog sin necesidad de gastar un cinco en recursos.
 ¿Como logré esto?, bueno pues usando las siguientes tecnologías
@@ -46,6 +55,9 @@ Puedo levantar un blog sin necesidad de gastar un cinco en recursos.
 Básicamente NextJS es React con esteroides, no profundizarse mucho en este tema, pero algo que beneficia mucho de esta tecnología es que se pueden construir.......
 
 >
+=======
+## TailwindCSS
+
 Es un framework increíble....
 
 ### Markdown
@@ -53,12 +65,76 @@ Es un framework increíble....
 .......
 
 ### My Great Heading {#custom-id}
+=======
+### Netlify
 
 .......
 
 Si alguien está interesado en ver como logre combinar todo para tener mi blog pueden acceder al repositorio
- *https://github.com/geabenitez/gersonaguirre.me*
+ *<https://github.com/geabenitez/gersonaguirre.me>*
 
 Respecto a cómo publicar un sitio web estático en Netlify, pueden ver este recurso.....
 
 Y pueden entrar a estas categorías para poder ver más sobre las tecnologías utilizadas.
+=======
+
+```js
+const handleImageUpload = event => {
+  const files = event.target.files
+  const formData = new FormData()
+  formData.append('myFile', files[0])
+
+  fetch('/saveImage', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log(data)
+  })
+  .catch(error => {
+    console.error(error)
+  })
+}
+```
+
+## NuxtJS
+
+Es un framework increíble....
+
+### Markdown
+
+.......
+
+### Netlify
+
+.......
+
+Si alguien está interesado en ver como logre combinar todo para tener mi blog pueden acceder al repositorio
+ *<https://github.com/geabenitez/gersonaguirre.me>*
+
+Respecto a cómo publicar un sitio web estático en Netlify, pueden ver este recurso.....
+
+Y pueden entrar a estas categorías para poder ver más sobre las tecnologías utilizadas.
+
+```js
+const handleImageUpload = event => {
+  const files = event.target.files
+  const formData = new FormData()
+  formData.append('myFile', files[0])
+
+  fetch('/saveImage', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log(data)
+  })
+  .catch(error => {
+    console.error(error)
+  })
+}
+```
+
+## Otro post
