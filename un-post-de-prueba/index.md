@@ -12,7 +12,6 @@ modified: 2021-11-24T23:53:53-06:00
 <v-img src="/un-post-de-prueba/3864616ed8591086958cb9e6bd332dca.jpg" alt="Chile triste" />
 
 ```javascript
-
 // This is a function declaration
 const play = () => {
   return 'play' 
