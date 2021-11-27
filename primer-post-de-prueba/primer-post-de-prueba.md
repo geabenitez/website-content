@@ -4,6 +4,7 @@ modified: 2021-11-25T01:09:36-06:00
 title: Primer post de prueba.
 tags: [JavaScript, VueJS]
 description: Hay muchas razones por las que entender cuál es la diferencia entre *Block Scope* o *Function Scope*
+status: ready
 ---
 
 ## Introducción
