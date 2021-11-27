@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: 
-      - main
+      - master
 
 jobs:
   update:
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with: 
-          repository: org/parent_repository
+          repository: gersonaguirre.me
           token: ${{ secrets.PRIVATE_TOKEN_GITHUB }}
 
       - name: Pull & update submodules recursively
