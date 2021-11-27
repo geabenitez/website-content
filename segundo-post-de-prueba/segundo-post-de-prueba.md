@@ -2,6 +2,7 @@
 created: 2021-11-26T08:13:36-06:00
 title: Segundo post de prueba.
 tags: [TailwindCSS, NuxtJS]
+description: Hay muchas razones por las que entender cuál es la diferencia entre *Block Scope* o *Function Scope*
 ---
 
 ## Introducción
@@ -21,7 +22,7 @@ conts play = () => {
 
 También por acá puedo dejar una imagen
 
-<v-img src="/primer-post-de-prueba/9fa03c9bc31b0b5617d3ba7f04fbd496.jpg" alt="primer post de prueba"></v-img>
+<post-image src="/primer-post-de-prueba/9fa03c9bc31b0b5617d3ba7f04fbd496.jpg" alt="primer post de prueba"></post-image>
 
 Y puedo continuar con el testo acá en teoría.
 
