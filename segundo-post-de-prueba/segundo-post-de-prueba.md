@@ -16,7 +16,7 @@ Y por acá puedo dejar un pequeño bloque de código.
 ```js
 // Algo de JavaScript
 conts play = () => {
-  return "hola"
+  return "ola k ase?"
 };
 ```
 
